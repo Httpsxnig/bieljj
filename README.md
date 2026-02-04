@@ -1,68 +1,99 @@
-<img width=800 src="https://github.com/refact0r/midnight-discord/raw/master/assets/preview.png">
+<img width="800" src="https://github.com/refact0r/midnight-discord/raw/master/assets/preview.png">
 
 # midnight
 
-a dark, customizable discord theme.
+**midnight** é um tema **dark**, moderno e altamente personalizável para o Discord.  
+Projetado para oferecer legibilidade, consistência visual e uma base sólida para customizações avançadas.
 
-<img width=800 src="https://github.com/refact0r/midnight-discord/raw/master/assets/screenshot1.png">
+<img width="800" src="https://github.com/refact0r/midnight-discord/raw/master/assets/screenshot1.png">
+<img width="800" src="https://github.com/refact0r/midnight-discord/raw/master/assets/screenshot2.png">
+<img width="800" src="https://github.com/refact0r/midnight-discord/raw/master/assets/screenshot3.png">
 
-<img width=800 src="https://github.com/refact0r/midnight-discord/raw/master/assets/screenshot2.png">
+---
 
-<img width=800 src="https://github.com/refact0r/midnight-discord/raw/master/assets/screenshot3.png">
+## ✨ Recursos
 
-## install
+- Tema dark com identidade visual consistente
+- Sistema de variáveis para personalização rápida
+- Compatível com Vencord, BetterDiscord e clientes similares
+- Estrutura modular e fácil de manter
+- Suporte a múltiplos estilos (flavors)
 
-### vencord/betterdiscord (or any client that supports theme files)
+---
 
-1. download the theme file, [`midnight.theme.css`](https://github.com/refact0r/midnight-discord/blob/master/themes/midnight.theme.css). (there should be a download button at the top right of the page)
-2. drag the file into your theme folder. (there should be a button to open the theme folder in theme settings)
-3. (optional) customize the theme by editing the options in `midnight.theme.css`.
+## 📦 Instalação
 
-### install through link
+### Vencord / BetterDiscord  
+*(ou qualquer cliente compatível com arquivos `.theme.css`)*
 
-add `https://refact0r.github.io/midnight-discord/build/midnight.css` to your theme import links. you will need to copy the theme variables to your quickcss in order to customize the theme.
+1. Baixe o arquivo do tema:  
+   [`midnight.theme.css`](https://github.com/refact0r/midnight-discord/blob/master/themes/midnight.theme.css)
+2. Arraste o arquivo para a **pasta de temas** do seu cliente
+3. *(Opcional)* Personalize o tema editando as variáveis em `midnight.theme.css`
 
-## flavors
+---
 
-flavors are preset customizations for midnight. screenshots coming soon!
+### 🔗 Instalação via link de importação
 
-to use a flavor, follow the install instructions above but download the flavor theme file of your choice instead of `midnight.theme.css`.
+Adicione o link abaixo aos **theme imports** do seu cliente:
+https://refact0r.github.io/midnight-discord/build/midnight.css
 
-- [background](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-background.theme.css) (background image + transparent blurred panels)
-- [catppuccin mocha](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-catppuccin-mocha.theme.css)
-- [catppuccin macchiato](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-catppuccin-macchiato.theme.css)
-- [nord](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-nord.theme.css)
-- [rose pine](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-rose-pine.theme.css)
-- [rose pine moon](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-rose-pine-moon.theme.css)
-- [tokyo night](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-tokyo-night.theme.css)
-- [lilypichu](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-lilypichu.theme.css)
-- [vencord](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-vencord.theme.css)
 
-## discord server
+> Para personalização via link, copie as variáveis do tema para o **QuickCSS**.
 
-need help? want to give feedback? want to be notified about upcoming changes? join <https://discord.gg/nz87hXyvcy>
+---
 
-## contributing
+## 🎨 Flavors
 
-this theme uses a dev script to check for changes in the source css files and combine them into a build file. to run locally:
+**Flavors** são variações visuais pré-configuradas baseadas no midnight.
 
-1. clone the repository.
-2. run `npm i`.
-3. create a `.env` file in the project root with the paths of any local theme files you want to update (comma separated)
+> Capturas de tela em breve.
 
-```
+### Flavors disponíveis
+
+- [Background](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-background.theme.css)  
+  *(imagem de fundo com painéis transparentes e desfoque)*
+- [Catppuccin Mocha](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-catppuccin-mocha.theme.css)
+- [Catppuccin Macchiato](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-catppuccin-macchiato.theme.css)
+- [Nord](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-nord.theme.css)
+- [Rosé Pine](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-rose-pine.theme.css)
+- [Rosé Pine Moon](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-rose-pine-moon.theme.css)
+- [Tokyo Night](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-tokyo-night.theme.css)
+- [Lilypichu](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-lilypichu.theme.css)
+- [Vencord](https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-vencord.theme.css)
+
+---
+
+## 💬 Comunidade
+
+Para suporte, feedback ou atualizações do projeto, entre no servidor oficial do Discord:
+
+https://discord.gg/nz87hXyvcy
+
+---
+
+## 🤝 Contribuindo
+
+Este projeto utiliza um script de desenvolvimento que monitora alterações nos arquivos CSS de origem e gera automaticamente o arquivo final de build.
+
+### Executando localmente
+
+1. Clone este repositório.
+2. Execute:
+   ```bash
+   npm install
+   
 DEV_OUTPUT_PATH=C:\Users\USERNAME\AppData\Roaming\Vencord\themes\midnight-dev.theme.css
-```
 
-4. run `npm run dev`.
-5. make changes to any file in `/src` or the main theme file. the local theme files you listed will automatically be updated, along with the build file in `/build`.
-6. make a pull request with your changes!
+npm run dev
 
-## credits
 
-original design inspired by <https://github.com/schnensch0/zelk>
 
-window controls inspired by <https://github.com/Dyzean/Tokyo-Night>
+---
 
-thanks to all the [contributors](https://github.com/refact0r/midnight-discord/graphs/contributors)!
+Se quiser, posso:
+- adicionar **badges (CI, versão, licença, downloads)**  
+- criar **README bilíngue (EN/PT)**  
+- adaptar para **monorepo / docs estruturados**  
+- ou alinhar com padrão de projetos grandes tipo Vencord / Catppuccin
 
