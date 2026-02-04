@@ -83,17 +83,8 @@ Este projeto utiliza um script de desenvolvimento que monitora alterações nos 
    ```bash
    npm install
    
-DEV_OUTPUT_PATH=C:\Users\USERNAME\AppData\Roaming\Vencord\themes\midnight-dev.theme.css
+   DEV_OUTPUT_PATH=C:\Users\USERNAME\AppData\Roaming\Vencord\themes\midnight-dev.theme.css
 
-npm run dev
+    npm run dev
 
-
-
----
-
-Se quiser, posso:
-- adicionar **badges (CI, versão, licença, downloads)**  
-- criar **README bilíngue (EN/PT)**  
-- adaptar para **monorepo / docs estruturados**  
-- ou alinhar com padrão de projetos grandes tipo Vencord / Catppuccin
 
